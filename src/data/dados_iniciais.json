@@ -1,45 +1,44 @@
 {
     "categorias": [
       {
-        "titulo": "Front End",
-        "link": "https://www.alura.com.br/formacao-front-end",
-        "cor": "#6BD1FF",
+        "titulo": "Viradas",
+        "cor": "#B40404",
         "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+          "text": "Maiores viradas do Tricolor",
+          "url": "http://www.saopaulofc.net/noticias/noticias/historia/2018/2/9/as-9-maiores-viradas-da-historia-do-sao-paulo"
         },
         "videos": [
           {
-            "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+            "titulo": "São Paulo 3 x 2 Figueirense - 2015",
+            "url": "https://www.youtube.com/watch?v=wps2vRwqO8w"
           },
           {
-            "titulo": "SEO com React",
-            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+            "titulo": "Cruzeiro 2 x 3 São Paulo - 2005",
+            "url": "https://www.youtube.com/watch?v=nlbtRl82icE"
           },
           {
-            "titulo": "Componentização com VanillaJS #AluraMais",
-            "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+            "titulo": "São Paulo 4 X 3 Santos - 2010",
+            "url": "https://www.youtube.com/watch?v=n_UqNJ7uctk"
           },
           {
-            "titulo": "Pare de chutar e aprenda a display: inline #01",
-            "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+            "titulo": "Botafogo 3 x 4 São Paulo - 2017",
+            "url": "https://www.youtube.com/watch?v=TtEVXttR6V0"
           },
           {
-            "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-            "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+            "titulo": "São Paulo 4 x 2 São Caetano - 2004",
+            "url": "https://www.youtube.com/watch?v=VpAkFrVZ7F4"
           },
           {
-            "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+            "titulo": "São Paulo 5 X 3 Santo André - 1994",
+            "url": "https://www.youtube.com/watch?v=OzN_ZrcwlgQ"
           },
           {
-            "titulo": "Novidades do Angular v9",
-            "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+            "titulo": "São Paulo 2 (5) x (4) 1 Rosario Central - 2004",
+            "url": "https://www.youtube.com/watch?v=nEhcW1zgvSw"
           },
           {
-            "titulo": "Base para aprender os frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+            "titulo": "São Paulo 2 X 1 Barcelona - 1992",
+            "url": "https://www.youtube.com/watch?v=Q1E721RfIBs"
           }        
         ]
       },

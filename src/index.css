@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Ranchers', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
-  --primary: #2A7AE4;
+  --primary: #610B0B;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
