@@ -1,182 +1,142 @@
 {
     "categorias": [
       {
-        "titulo": "Viradas",
-        "cor": "#B40404",
+        "titulo": "Mountain Bike",
+        "cor": "#A0593B",
         "link_extra": {
-          "text": "Maiores viradas do Tricolor",
-          "url": "http://www.saopaulofc.net/noticias/noticias/historia/2018/2/9/as-9-maiores-viradas-da-historia-do-sao-paulo"
+          "text": "As melhores trilhas para mountain bike no Brasil",
+          "url": "https://www.icmbio.gov.br/portal/ultimas-noticias/20-geral/9034-8-trilhas-de-bike-para-quem-ama-pedalar-na-natureza"
         },
         "videos": [
           {
-            "titulo": "São Paulo 3 x 2 Figueirense - 2015",
-            "url": "https://www.youtube.com/watch?v=wps2vRwqO8w"
+            "titulo": "Parque Nacional da Serra do Cipó (MG)",
+            "url": "https://www.youtube.com/watch?v=jigvR3fRnOg"
           },
           {
-            "titulo": "Cruzeiro 2 x 3 São Paulo - 2005",
-            "url": "https://www.youtube.com/watch?v=nlbtRl82icE"
+            "titulo": "Serra da Canastra (MG)",
+            "url": "https://www.youtube.com/watch?v=RvGTV9Ct5iw"
           },
           {
-            "titulo": "São Paulo 4 X 3 Santos - 2010",
-            "url": "https://www.youtube.com/watch?v=n_UqNJ7uctk"
+            "titulo": "Parque Nacional dos Lençóis Maranhenses (MA)",
+            "url": "https://www.youtube.com/watch?v=n8-mV4Q2n3c"
           },
           {
-            "titulo": "Botafogo 3 x 4 São Paulo - 2017",
-            "url": "https://www.youtube.com/watch?v=TtEVXttR6V0"
+            "titulo": "Floresta Nacional de Brasília (DF)",
+            "url": "https://www.youtube.com/watch?v=F_ywLF0g19Q"
           },
           {
-            "titulo": "São Paulo 4 x 2 São Caetano - 2004",
-            "url": "https://www.youtube.com/watch?v=VpAkFrVZ7F4"
+            "titulo": "Serra do Vulcão (RJ)",
+            "url": "https://www.youtube.com/watch?v=SpcGF-3Du2w"
           },
           {
-            "titulo": "São Paulo 5 X 3 Santo André - 1994",
-            "url": "https://www.youtube.com/watch?v=OzN_ZrcwlgQ"
+            "titulo": "Parque Nacional das Emas (GO)",
+            "url": "https://www.youtube.com/watch?v=IODYa6EETO0"
           },
           {
-            "titulo": "São Paulo 2 (5) x (4) 1 Rosario Central - 2004",
-            "url": "https://www.youtube.com/watch?v=nEhcW1zgvSw"
-          },
-          {
-            "titulo": "São Paulo 2 X 1 Barcelona - 1992",
-            "url": "https://www.youtube.com/watch?v=Q1E721RfIBs"
-          }        
+            "titulo": "Parque Nacional de Ubajara (CE)",
+            "url": "https://www.youtube.com/watch?v=1D6Ot7wRxxM"
+          }
         ]
       },
       {
-        "titulo": "Back End",
-        "cor": "#00C86F",
+        "titulo": "Speed",
+        "cor": "#00BFFF",
         "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
+          "text": "Os melhores trajetos de Speed por São Paulo",
+          "url": "https://www.ativo.com/bike/treinamento/melhores-lugares-treinar-em-sao-paulo/"
         },
         "videos": [
           {
-            "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-            "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+            "titulo": "Serra do Rio do Rastro (SC)",
+            "url": "https://www.youtube.com/watch?v=6vQ1OT5FN_Y"
           },
           {
-            "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-            "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+            "titulo": "USP",
+            "url": "https://www.youtube.com/watch?v=Ih6o39Gn5I0"
           },
           {
-            "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-            "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+            "titulo": "Ciclovia do Rio Pinheiros",
+            "url": "https://www.youtube.com/watch?v=EGNTB9sBr1Q"
           },
           {
-            "titulo": "API: Dicionário do Programador",
-            "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+            "titulo": "Pico do Jaraguá",
+            "url": "https://www.youtube.com/watch?v=ylOCrC1vnTM"
           }, 
           {
-            "titulo": "Usando Git Direito",
-            "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+            "titulo": "Estrada dos Romeiros",
+            "url": "https://www.youtube.com/watch?v=PlqziQ7ekOI"
+          },
+          {
+            "titulo": "Estrada do Suru",
+            "url": "https://www.youtube.com/watch?v=iBpVaRyoH0s"
           }
         ]
       },
       {
-        "titulo": "Data Science e Inteligência Artificial",
-        "cor": "#9cd33b",
+        "titulo": "Manutenção",
+        "cor": "#FFEA00",
         "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/formacao-data-science"
+          "text": "Aprenda a cuidar da sua bike da sua casa",
+          "url": "https://www.mormaii.com.br/site/12-dicas-para-manutencao-da-bicicleta-sempre-em-dia/"
         },
         "videos": [
           {
-            "titulo": "Teste de Turing",
-            "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+            "titulo": "Lavando a bike em casa",
+            "url": "https://www.youtube.com/watch?v=jU3NZq0d1XU"
           },
           {
-            "titulo": "O que é Data Science?",
-            "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+            "titulo": "Como trocar uma câmara de ar",
+            "url": "https://www.youtube.com/watch?v=Nvvh9jaB6Y4"
           },
           {
-            "titulo": "Melhor forma de aprender Python",
-            "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+            "titulo": "Como regular o câmbio da bike",
+            "url": "https://www.youtube.com/watch?v=VRSygpXPnFA"
           },
           {
-            "titulo": "Como ingressar no mercado de Data Science?",
-            "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+            "titulo": "Como colocar tubeless nos pneus da bike",
+            "url": "https://www.youtube.com/watch?v=VDNSnIqbHRA"
+          },
+          {
+            "titulo": "Como trocar e regular as pastilhas de freio",
+            "url": "https://www.youtube.com/watch?v=EAUNaiNpVIo"
           }
         ]
       },
       {
-        "titulo": "Filmes",
-        "cor": "orange",
-        "videos": [
-          {
-            "titulo": "Interestellar",
-            "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-          },
-          {
-            "titulo": "Gattaca",
-            "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-          },
-          {
-            "titulo": "A Chegada",
-            "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-          },
-          {
-            "titulo": "Feitiço do Tempo",
-            "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-          }
-        ]
-      },
-      {
-        "titulo": "Games",
-        "cor": "red",
+        "titulo": "Mundo a fora",
+        "cor": "#7FFF00",
         "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/formacao-jogos-unity"
+          "text": "Os melhores rolês de bike por todo mundo",
+          "url": ""
         },
         "videos": [
           {
-            "titulo": "Final Fantasy 7",
-            "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+            "titulo": "Camino Yungas, Bolívia",
+            "url": "https://www.youtube.com/watch?v=88z56TKf4uY"
           },
           {
-            "titulo": "Assassins Creed Valhalla",
-            "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+            "titulo": "Cliffs of Moher, Irlanda",
+            "url": "https://www.youtube.com/watch?v=IEExBE_D3ug"
           },
           {
-            "titulo": "God of War 4",
-            "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+            "titulo": "Deserto de Utah, Estados Unidos",
+            "url": "https://www.youtube.com/watch?v=5DP28awfxoc"
           },
           {
-            "titulo": "Resident Evil 8",
-            "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+            "titulo": "Ötschergräben, Áustria",
+            "url": "https://www.youtube.com/watch?v=p32sB6TXwCE"
           },
           {
-            "titulo": "Pokémon Let's Go Pikachu/Eevee",
-            "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-          }
-        ]
-      },
-      {
-        "titulo": "Aprendendo a aprender tecnologia",
-        "cor": "#6b5be2",
-        "link_extra": {
-          "text": "Curso sobre aprendizado na Alura",
-          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-        },
-        "videos": [
-          {
-            "titulo": "Como estudar melhor?",
-            "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+            "titulo": "Whistler Bike Park, Canadá",
+            "url": "https://www.youtube.com/watch?v=ydlcRDLjjjk"
           },
           {
-            "titulo": "Faculdade",
-            "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+            "titulo": "Alasca, Estados Unidos",
+            "url": "https://www.youtube.com/watch?v=juM3ZOIALa8"
           },
           {
-            "titulo": "Frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-          },
-          {
-            "titulo": "A mágica do Aprendizado",
-            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-          },
-          {
-            "titulo": "Como aprender a programar?",
-            "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+            "titulo": "Corleone, Itália",
+            "url": "https://www.youtube.com/watch?v=9QRgHYz-jPE"
           }
         ]
       }
