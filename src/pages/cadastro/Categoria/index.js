@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '#000'
-  }
+    cor: '#000',
+  };
 
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
@@ -37,39 +38,40 @@ function CadastroCategoria() {
 
         setCategorias([
           ...categorias,
-          values
+          values,
         ]);
 
         setValues(valoresIniciais);
-      }}>
+      }}
+      >
 
         <FormField
-          label="Nome da Categoria: "
+          label="Nome da Categoria"
           type="text"
           name="nome"
           value={values.nome}
           onChange={handleChange}
         />
 
-        {/* <FormField
-          label="Descrição: "
-          type="text"
+        <FormField
+          label="Descrição"
+          type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
-        /> */}
+        />
 
         <FormField
-          label="Cor: "
+          label="Cor"
           type="color"
           name="cor"
           value={values.cor}
           onChange={handleChange}
         />
 
-        <button type="submit">
+        <Button type="submit">
           Cadastrar
-          </button>
+        </Button>
       </form>
 
       <ul>
@@ -82,9 +84,9 @@ function CadastroCategoria() {
 
       <Link to="/">
         Home
-        </Link>
+      </Link>
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;
