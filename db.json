@@ -1,196 +1,272 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "titulo": "Mountain Bike",
-            "descricao": "As melhores trilhas para mountain bike no Brasil",
-            "cor": "#A0593B",
-            "link_extra": {
-                "text": "As melhores trilhas para mountain bike no Brasil",
-                "url": "https://www.icmbio.gov.br/portal/ultimas-noticias/20-geral/9034-8-trilhas-de-bike-para-quem-ama-pedalar-na-natureza"
-            }
-        },
-        {
-            "id": 2,
-            "titulo": "Speed",
-            "descricao": "Os melhores trajetos de Speed por São Paulo",
-            "cor": "#00BFFF",
-            "link_extra": {
-                "text": "Os melhores trajetos de Speed por São Paulo",
-                "url": "https://www.ativo.com/bike/treinamento/melhores-lugares-treinar-em-sao-paulo/"
-            }
-        },
-        {
-            "id": 3,
-            "titulo": "Manutenção",
-            "descricao": "Aprenda a cuidar da sua bike da sua casa",
-            "cor": "#FFEA00",
-            "link_extra": {
-                "text": "Aprenda a cuidar da sua bike da sua casa",
-                "url": "https://www.mormaii.com.br/site/12-dicas-para-manutencao-da-bicicleta-sempre-em-dia/"
-            }
-        },
-        {
-            "id": 4,
-            "titulo": "Mundo a fora",
-            "descricao": "Os melhores rolês de bike por todo mundo",
-            "cor": "#7FFF00",
-            "link_extra": {
-                "text": "Os melhores rolês de bike por todo mundo",
-                "url": ""
-            }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Mountain Bike",
+      "descricao": "As melhores trilhas para mountain bike no Brasil",
+      "cor": "#A0593B",
+      "link_extra": {
+        "text": "As melhores trilhas para mountain bike no Brasil",
+        "url": "https://www.icmbio.gov.br/portal/ultimas-noticias/20-geral/9034-8-trilhas-de-bike-para-quem-ama-pedalar-na-natureza"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Speed",
+      "descricao": "Os melhores trajetos de Speed por São Paulo",
+      "cor": "#00BFFF",
+      "link_extra": {
+        "text": "Os melhores trajetos de Speed por São Paulo",
+        "url": "https://www.ativo.com/bike/treinamento/melhores-lugares-treinar-em-sao-paulo/"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Manutenção",
+      "descricao": "Aprenda a cuidar da sua bike da sua casa",
+      "cor": "#FFEA00",
+      "link_extra": {
+        "text": "Aprenda a cuidar da sua bike da sua casa",
+        "url": "https://www.mormaii.com.br/site/12-dicas-para-manutencao-da-bicicleta-sempre-em-dia/"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Mundo a fora",
+      "descricao": "Os melhores rolês de bike por todo mundo",
+      "cor": "#7FFF00",
+      "link_extra": {
+        "text": "Os melhores rolês de bike por todo mundo",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Parque Nacional da Serra do Cipó (MG)",
+      "url": "https://www.youtube.com/watch?v=jigvR3fRnOg"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Serra da Canastra (MG)",
+      "url": "https://www.youtube.com/watch?v=RvGTV9Ct5iw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Parque Nacional dos Lençóis Maranhenses (MA)",
+      "url": "https://www.youtube.com/watch?v=n8-mV4Q2n3c"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Floresta Nacional de Brasília (DF)",
+      "url": "https://www.youtube.com/watch?v=F_ywLF0g19Q"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Serra do Vulcão (RJ)",
+      "url": "https://www.youtube.com/watch?v=SpcGF-3Du2w"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Parque Nacional das Emas (GO)",
+      "url": "https://www.youtube.com/watch?v=IODYa6EETO0"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Parque Nacional de Ubajara (CE)",
+      "url": "https://www.youtube.com/watch?v=1D6Ot7wRxxM"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Serra do Rio do Rastro (SC)",
+      "url": "https://www.youtube.com/watch?v=6vQ1OT5FN_Y"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "USP",
+      "url": "https://www.youtube.com/watch?v=Ih6o39Gn5I0"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Ciclovia do Rio Pinheiros",
+      "url": "https://www.youtube.com/watch?v=EGNTB9sBr1Q"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Pico do Jaraguá",
+      "url": "https://www.youtube.com/watch?v=ylOCrC1vnTM"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Estrada dos Romeiros",
+      "url": "https://www.youtube.com/watch?v=PlqziQ7ekOI"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Estrada do Suru",
+      "url": "https://www.youtube.com/watch?v=iBpVaRyoH0s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Lavando a bike em casa",
+      "url": "https://www.youtube.com/watch?v=jU3NZq0d1XU"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Como trocar uma câmara de ar",
+      "url": "https://www.youtube.com/watch?v=Nvvh9jaB6Y4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Como regular o câmbio da bike",
+      "url": "https://www.youtube.com/watch?v=VRSygpXPnFA"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Como colocar tubeless nos pneus da bike",
+      "url": "https://www.youtube.com/watch?v=VDNSnIqbHRA"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Como trocar e regular as pastilhas de freio",
+      "url": "https://www.youtube.com/watch?v=EAUNaiNpVIo"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Camino Yungas, Bolívia",
+      "url": "https://www.youtube.com/watch?v=88z56TKf4uY"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Cliffs of Moher, Irlanda",
+      "url": "https://www.youtube.com/watch?v=IEExBE_D3ug"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Deserto de Utah, Estados Unidos",
+      "url": "https://www.youtube.com/watch?v=5DP28awfxoc"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Ötschergräben, Áustria",
+      "url": "https://www.youtube.com/watch?v=p32sB6TXwCE"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Whistler Bike Park, Canadá",
+      "url": "https://www.youtube.com/watch?v=ydlcRDLjjjk"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Alasca, Estados Unidos",
+      "url": "https://www.youtube.com/watch?v=juM3ZOIALa8"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Corleone, Itália",
+      "url": "https://www.youtube.com/watch?v=9QRgHYz-jPE"
+    },
+    {
+      "titulo": "teas",
+      "url": "asda",
+      "id": 26
+    },
+    {
+      "titulo": "teste",
+      "url": "https://www.youtube.com/watch?v=LxjghFUPRpQ",
+      "id": 27
+    },
+    {
+      "titulo": "teste",
+      "url": "123",
+      "id": 28
+    },
+    {
+      "titulo": "teas",
+      "url": "as",
+      "id": 29
+    },
+    {
+      "titulo": "ds",
+      "url": "ds",
+      "id": 30
+    },
+    {
+      "titulo": "eta",
+      "url": "as",
+      "categoriaId": {
+        "id": 2,
+        "titulo": "Speed",
+        "descricao": "Os melhores trajetos de Speed por São Paulo",
+        "cor": "#00BFFF",
+        "link_extra": {
+          "text": "Os melhores trajetos de Speed por São Paulo",
+          "url": "https://www.ativo.com/bike/treinamento/melhores-lugares-treinar-em-sao-paulo/"
         }
-    ],
-    "videos": [
-        {
-            "id": 1,
-            "categoriaId": 1,
-            "titulo": "Parque Nacional da Serra do Cipó (MG)",
-            "url": "https://www.youtube.com/watch?v=jigvR3fRnOg"
-        },
-        {
-            "id": 2,
-            "categoriaId": 1,
-            "titulo": "Serra da Canastra (MG)",
-            "url": "https://www.youtube.com/watch?v=RvGTV9Ct5iw"
-        },
-        {
-            "id": 3,
-            "categoriaId": 1,
-            "titulo": "Parque Nacional dos Lençóis Maranhenses (MA)",
-            "url": "https://www.youtube.com/watch?v=n8-mV4Q2n3c"
-        },
-        {
-            "id": 4,
-            "categoriaId": 1,
-            "titulo": "Floresta Nacional de Brasília (DF)",
-            "url": "https://www.youtube.com/watch?v=F_ywLF0g19Q"
-        },
-        {
-            "id": 5,
-            "categoriaId": 1,
-            "titulo": "Serra do Vulcão (RJ)",
-            "url": "https://www.youtube.com/watch?v=SpcGF-3Du2w"
-        },
-        {
-            "id": 6,
-            "categoriaId": 1,
-            "titulo": "Parque Nacional das Emas (GO)",
-            "url": "https://www.youtube.com/watch?v=IODYa6EETO0"
-        },
-        {
-            "id": 7,
-            "categoriaId": 1,
-            "titulo": "Parque Nacional de Ubajara (CE)",
-            "url": "https://www.youtube.com/watch?v=1D6Ot7wRxxM"
-        },
-        {
-            "id": 8,
-            "categoriaId": 2,
-            "titulo": "Serra do Rio do Rastro (SC)",
-            "url": "https://www.youtube.com/watch?v=6vQ1OT5FN_Y"
-        },
-        {
-            "id": 9,
-            "categoriaId": 2,
-            "titulo": "USP",
-            "url": "https://www.youtube.com/watch?v=Ih6o39Gn5I0"
-        },
-        {
-            "id": 10,
-            "categoriaId": 2,
-            "titulo": "Ciclovia do Rio Pinheiros",
-            "url": "https://www.youtube.com/watch?v=EGNTB9sBr1Q"
-        },
-        {
-            "id": 11,
-            "categoriaId": 2,
-            "titulo": "Pico do Jaraguá",
-            "url": "https://www.youtube.com/watch?v=ylOCrC1vnTM"
-        },
-        {
-            "id": 12,
-            "categoriaId": 2,
-            "titulo": "Estrada dos Romeiros",
-            "url": "https://www.youtube.com/watch?v=PlqziQ7ekOI"
-        },
-        {
-            "id": 13,
-            "categoriaId": 2,
-            "titulo": "Estrada do Suru",
-            "url": "https://www.youtube.com/watch?v=iBpVaRyoH0s"
-        },
-        {
-            "id": 14,
-            "categoriaId": 3,
-            "titulo": "Lavando a bike em casa",
-            "url": "https://www.youtube.com/watch?v=jU3NZq0d1XU"
-        },
-        {
-            "id": 15,
-            "categoriaId": 3,
-            "titulo": "Como trocar uma câmara de ar",
-            "url": "https://www.youtube.com/watch?v=Nvvh9jaB6Y4"
-        },
-        {
-            "id": 16,
-            "categoriaId": 3,
-            "titulo": "Como regular o câmbio da bike",
-            "url": "https://www.youtube.com/watch?v=VRSygpXPnFA"
-        },
-        {
-            "id": 17,
-            "categoriaId": 3,
-            "titulo": "Como colocar tubeless nos pneus da bike",
-            "url": "https://www.youtube.com/watch?v=VDNSnIqbHRA"
-        },
-        {
-            "id": 18,
-            "categoriaId": 3,
-            "titulo": "Como trocar e regular as pastilhas de freio",
-            "url": "https://www.youtube.com/watch?v=EAUNaiNpVIo"
-        },
-        {
-            "id": 19,
-            "categoriaId": 4,
-            "titulo": "Camino Yungas, Bolívia",
-            "url": "https://www.youtube.com/watch?v=88z56TKf4uY"
-          },
-          {
-            "id": 20,
-            "categoriaId": 4,
-            "titulo": "Cliffs of Moher, Irlanda",
-            "url": "https://www.youtube.com/watch?v=IEExBE_D3ug"
-          },
-          {
-            "id": 21,
-            "categoriaId": 4,
-            "titulo": "Deserto de Utah, Estados Unidos",
-            "url": "https://www.youtube.com/watch?v=5DP28awfxoc"
-          },
-          {
-            "id": 22,
-            "categoriaId": 4,
-            "titulo": "Ötschergräben, Áustria",
-            "url": "https://www.youtube.com/watch?v=p32sB6TXwCE"
-          },
-          {
-            "id": 23,
-            "categoriaId": 4,
-            "titulo": "Whistler Bike Park, Canadá",
-            "url": "https://www.youtube.com/watch?v=ydlcRDLjjjk"
-          },
-          {
-            "id": 24,
-            "categoriaId": 4,
-            "titulo": "Alasca, Estados Unidos",
-            "url": "https://www.youtube.com/watch?v=juM3ZOIALa8"
-          },
-          {
-            "id": 25,
-            "categoriaId": 4,
-            "titulo": "Corleone, Itália",
-            "url": "https://www.youtube.com/watch?v=9QRgHYz-jPE"
-          }
-    ]
+      },
+      "id": 31
+    },
+    {
+      "titulo": "teste",
+      "url": "https://www.youtube.com/watch?v=LxjghFUPRpQ",
+      "categoriaId": {
+        "id": 1,
+        "titulo": "Mountain Bike",
+        "descricao": "As melhores trilhas para mountain bike no Brasil",
+        "cor": "#A0593B",
+        "link_extra": {
+          "text": "As melhores trilhas para mountain bike no Brasil",
+          "url": "https://www.icmbio.gov.br/portal/ultimas-noticias/20-geral/9034-8-trilhas-de-bike-para-quem-ama-pedalar-na-natureza"
+        }
+      },
+      "id": 32
+    },
+    {
+      "titulo": "abc",
+      "url": "teadas",
+      "categoriaId": {
+        "id": 4,
+        "titulo": "Mundo a fora",
+        "descricao": "Os melhores rolês de bike por todo mundo",
+        "cor": "#7FFF00",
+        "link_extra": {
+          "text": "Os melhores rolês de bike por todo mundo",
+          "url": ""
+        }
+      },
+      "id": 33
+    },
+    {
+      "titulo": "teste",
+      "url": "https://www.youtube.com/watch?v=LxjghFUPRpQ",
+      "categoriaId": 3,
+      "id": 34
+    }
+  ]
 }
