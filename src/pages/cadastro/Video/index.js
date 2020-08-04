@@ -32,6 +32,7 @@ function CadastroVideo() {
 
         <form onSubmit={(event) => {
           event.preventDefault();
+          // eslint-disable-next-line max-len
           const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categoria);
 
           if (categoriaEscolhida === undefined) throw new Error('Categoria selecionada não encontrada.');
