@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
@@ -15,10 +16,11 @@ ${({ paddingAll }) => css`
 `}
 `;
 
-function PageDefault({ children, paddingAll }) {
+function PageDefault({ children, paddingAll, btnCategoria }) {
+  const cadastroCategoria = Boolean(btnCategoria);
   return (
     <>
-      <Menu />
+      <Menu cadastroCategoria={cadastroCategoria} />
       <Main paddingAll={paddingAll}>
         {children}
       </Main>
@@ -26,5 +28,17 @@ function PageDefault({ children, paddingAll }) {
     </>
   );
 }
+
+PageDefault.defaultProps = {
+  children: '',
+  paddingAll: '',
+  btnCategoria: false,
+};
+
+PageDefault.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.string, PropTypes.array]),
+  paddingAll: PropTypes.number,
+  btnCategoria: PropTypes.bool,
+};
 
 export default PageDefault;

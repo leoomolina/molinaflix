@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import categoriasRepository from '../../../repositories/categorias';
+import Loader from '../../../components/Loader';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -86,9 +86,7 @@ function CadastroCategoria() {
       </form>
 
       {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>
+        <Loader />
       )}
 
       <ul>
@@ -98,10 +96,6 @@ function CadastroCategoria() {
           </li>
         ))}
       </ul>
-
-      <Link to="/">
-        Home
-      </Link>
     </PageDefault>
   );
 }
