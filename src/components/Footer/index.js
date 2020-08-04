@@ -62,7 +62,7 @@ function Footer() {
           />
         </a>
         {' '}
-        <a href="https://github.com/leoomolina">
+        <a href="https://twitter.com/leoomolina_">
           <img
             src={LogoTwitter}
             alt="Logo Twitter"
