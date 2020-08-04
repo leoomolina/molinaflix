@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -31,15 +32,27 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>Cadastro de Categoria: </h1>
 
-      <form onSubmit={function handleSubmit(infosEvento) {
-        infosEvento.preventDefault();
+      <form onSubmit={(event) => {
+        event.preventDefault();
 
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
-
-        clearForm();
+        categoriasRepository.create({
+          titulo: values.titulo,
+          descricao: values.descricao,
+          cor: values.cor,
+          link_extra: {
+            text: '',
+            url: '',
+          },
+        })
+          .then(() => {
+            // eslint-disable-next-line no-console
+            console.log('Categoria cadastrada com sucesso!');
+            clearForm();
+            categoriasRepository.getAll()
+              .then((data) => {
+                setCategorias(data);
+              });
+          });
       }}
       >
 
